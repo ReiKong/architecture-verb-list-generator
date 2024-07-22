@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1 {
-  @apply text-6xl md:text-7xl font-bold tracking-tighter text-zinc-300;
+  @apply text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-zinc-300;
 }
 
 body {
