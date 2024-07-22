@@ -27,7 +27,7 @@ export default function WordSelector({ onChange }: { onChange: (value: string) =
                     displayValue={(verb: { id: number; word: string }) => verb?.word}
                     onChange={(event) => setQuery(event.target.value)}
                 />
-                <ComboboxOptions anchor="bottom" className="absolute z-1 mt-2 w-[294px] sm:w-[374px] md:w-[444px] bg-zinc-800 border border-zinc-700 empty:invisible tracking-tight">
+                <ComboboxOptions className="absolute z-1 mt-2 w-[294px] sm:w-[374px] md:w-[444px] bg-zinc-800 border border-zinc-700 empty:invisible tracking-tight">
                     {filteredVerbs.map((verb) => (
                     <ComboboxOption key={verb.id} value={verb} className="px-2 py-1 text-lg text-zinc-300 group flex gap-2 data-[focus]:bg-zinc-700">
                         {verb.word}
