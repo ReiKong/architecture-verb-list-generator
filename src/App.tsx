@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
         <Button className="mt-20" onClick={handleSurpriseMe}>
-          Surprise me
+          Generate
         </Button>
       </div>
     </>
