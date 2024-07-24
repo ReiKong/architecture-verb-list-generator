@@ -1,5 +1,6 @@
+## Architecture Verb List Generator
 ### Overview
-Made for Year 1 Architecture students at the National University of Singapore.
+Made for Year 1 Architecture students at the National University of Singapore. Students select one verb that describes architecture and click "Generate" to receive a random verb. Using this combination, they are to develop a project that highlights these qualities of architecture.
 
 ### React + TypeScript + Vite
 
